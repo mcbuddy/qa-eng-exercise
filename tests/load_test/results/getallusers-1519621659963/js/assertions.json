@@ -1,0 +1,10 @@
+{
+  "simulation": "qa_exercise.GetAllUsers",
+  "simulationId": "getallusers",
+  "start": 1519621659963,
+  "description": "",
+  "scenarios": ["QA Exercise Load Test"],
+  "assertions": [
+
+  ]
+}

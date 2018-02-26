@@ -1,0 +1,10 @@
+{
+  "simulation": "qa_exercise.GetAUsers",
+  "simulationId": "getausers",
+  "start": 1519621826838,
+  "description": "",
+  "scenarios": ["QA Exercise Load Test"],
+  "assertions": [
+
+  ]
+}
