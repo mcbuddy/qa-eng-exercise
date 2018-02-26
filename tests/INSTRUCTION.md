@@ -10,9 +10,12 @@ In order to run test just simply type this command to terminal `python api_test.
 By default it will be test the localhost and it can be specify to different env if needed. 
 
 ## II. Load Test
-The load test using Gatling and Scala as its tools. In order to run test just go to `load_test` directory
+The load test using Gatling and Scala as its tools. Java JDK 1.8 needed for this load test 
+In order to run test just go to `load_test` directory
 then type `./bin/gatling.sh` this command will lists all the available load test and asking the user imput
 or simply type this command to run first load test `./bin/gatling.sh -s qa_exercise.GetAllUsers`
+The result of the test can be view after the load test done by opening the `results` folder, 
+it looks something like this `qa-eng-exercise/tests/load_test/results/getallusers-1519623961390/index.html`
 
 ## Caveat:
 - Have difficulty with Vagrant file on this file. It gave me error about the `hosts` on the provisioning. 
